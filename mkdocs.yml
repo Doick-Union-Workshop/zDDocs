@@ -1,0 +1,61 @@
+site_name: zDDocs
+copyright: Copyright &copy; Doick 2025
+site_url: https://doick-union-workshop.github.io/zDDocs
+repo_url: https://github.com/Doick-Union-Workshop/zDDocs
+repo_name: Doick-Union-Workshop/zDDocs
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    code: JetBrains Mono
+  features:
+    - navigation.indexes
+    - navigation.footer
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+nav:
+  - Home: index.md
+  - Externals:
+    - AI functions: externals/ai.md
+    - CAST functions: externals/cast.md
+    - HLP functions: externals/hlp.md
+    - Log functions: externals/log.md
+    - MOB functions: externals/mob.md
+    - Menu functions: externals/menu.md
+    - NPC functions: externals/npc.md
+    - String functions: externals/str.md
+    - VOB functions: externals/vob.md
+    - WLD functions: externals/wld.md
+    - Utility functions: externals/utils.md
+  - Hooks: hooks/index.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Doick-Union-Workshop/zDDocs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      anchor_linenums: true
+      line_anchors: example
+      line_spans: example
+      pygments_lang_class: true
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
