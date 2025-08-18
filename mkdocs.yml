@@ -1,8 +1,8 @@
-site_name: zDDocs
+site_name: Doick's Union Workshop Docs
 copyright: Copyright &copy; Doick 2025
 site_url: https://doick-union-workshop.github.io/zDDocs
 repo_url: https://github.com/Doick-Union-Workshop/zDDocs
-repo_name: Doick-Union-Workshop/zDDocs
+repo_name: DUW/zDDocs
 theme:
   name: material
   palette:
@@ -18,6 +18,7 @@ theme:
   font:
     code: JetBrains Mono
   features:
+    - navigation.tabs
     - navigation.indexes
     - navigation.footer
     - content.code.copy
@@ -38,7 +39,12 @@ nav:
     - VOB functions: externals/vob.md
     - WLD functions: externals/wld.md
     - Utility functions: externals/utils.md
-  - Hooks: hooks/index.md
+  - Hooks:
+    - Hooks API: hooks/hooks_api.md
+    - Save game menu: hooks/menu_savegame.md
+    - Status menu: hooks/menu_status.md
+    - Dropping items by player: hooks/player_drop_item.md
+    - Selling items by player: hooks/player_sell_item.md
 extra:
   social:
     - icon: fontawesome/brands/github
