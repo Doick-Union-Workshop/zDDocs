@@ -8,7 +8,6 @@ When the status menu is displayed, the hook will try to call a Daedalus function
 ```dae title="Example usage"
 func void MENU_STATUS_API()
 {
-    PrintScreen("Status menu opened!", -1, -1, "FONT_OLD_10_WHITE.TGA", 2);
     Menu_SetItemText("MENU_ITEM_PLAYERGUILD", "Necromancer");
 };
 ```

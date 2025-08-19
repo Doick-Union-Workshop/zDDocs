@@ -8,7 +8,6 @@ When a slot is changed, the hook will try to call a Daedalus function named: `ME
 ```dae title="Example usage"
 func void MENU_SAVEGAME_API()
 {
-    PrintScreen("Save/load game menu opened!", -1, -1, "FONT_OLD_10_WHITE.TGA", 2);
-	Menu_SetItemText("MENUITEM_LOADSAVE_LEVELNAME_VALUE", "Valley of Mines");
+    Menu_SetItemText("MENUITEM_LOADSAVE_LEVELNAME_VALUE", "Valley of Mines");
 };
 ```

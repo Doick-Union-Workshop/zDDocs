@@ -13,9 +13,9 @@ func int C_PlayerCanDropItem()
 {
     if (!Hlp_IsValidItem(item)) { return false; };
 
-    if (Hlp_GetInstanceID(item) == TestBook)
+    if (Hlp_GetInstanceID(item) == ItMi_InnosEye_Mis)
     {
-        PrintScreen("You cannot drop this item!", -1, -1, "FONT_OLD_10_WHITE.TGA", 2);
+        Print("You cannot drop this unique item!");
         return false;
     };
 

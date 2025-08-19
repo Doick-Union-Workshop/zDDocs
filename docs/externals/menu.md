@@ -17,7 +17,7 @@ Menu_SetItemText("MENU_ITEM_PLAYERGUILD", "Necromancer");
 
 ## Menu_GetItemText
 
-Returns value of text on first line (`0` by default) of specificed menu item.
+Returns value of text on first line (`0` by default) of specified menu item.
 
 ```dae
 func string Menu_GetItemText(var string menuItemName) {};

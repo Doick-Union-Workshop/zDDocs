@@ -2,7 +2,7 @@
 
 ## AI_TurnToWP
 
-Turns an NPC to a specificed waypoint in the world.
+Turns an NPC to a specified waypoint in the world.
 
 ```dae
 func void AI_TurnToWP(var C_NPC npc, var string wp) {};
@@ -17,7 +17,7 @@ AI_TurnToWP(self, "WP_START");
 
 ## AI_TurnToVob
 
-Turns an NPC to a specificed freepoint or vob in the world. It works similarly to `AI_TurnToWP`.
+Turns an NPC to a specified freepoint or vob in the world. It works similarly to `AI_TurnToWP`.
 
 ```dae
 func void AI_TurnToVob(var C_NPC npc, var string vob) {};

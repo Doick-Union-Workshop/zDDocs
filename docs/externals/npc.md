@@ -2,7 +2,7 @@
 
 ## Npc_GetRoutineFuncName
 
-Returns the function name of the NPC's current routine e.g. `RTN_PRESTART_100`.
+Returns the function name of the NPC's current routine (e.g. `RTN_PRESTART_100`).
 
 ```dae
 func string Npc_GetRoutineFuncName(var C_NPC npc) {};
@@ -20,7 +20,7 @@ if (Hlp_StrCmp(Npc_GetRoutineFuncName(self), "RTN_PreStart_100"))
 
 ## Npc_GetRoutineName
 
-Returns the name of the NPC's current routine e.g. `PRESTART`.
+Returns the name of the NPC's current routine (e.g. `PRESTART`).
 
 ```dae
 func string Npc_GetRoutineName(var C_NPC npc) {};
@@ -38,6 +38,8 @@ if (Hlp_StrCmp(Npc_GetRoutineName(self), "PreStart"))
 
 ## Npc_EquipItem
 
+Equips or unequips the specified item on the NPC.
+
 ```dae
 func void Npc_EquipItem(var C_NPC npc, var int itemInstance) {};
 ```
@@ -50,6 +52,8 @@ Npc_EquipItem(self, ItLsTorch);
 ```
 
 ## Npc_GetWalkMode
+
+Returns the current walk mode of the NPC.
 
 ```dae
 func int Npc_GetWalkMode(var C_NPC npc) {};
@@ -67,6 +71,8 @@ if (Npc_GetWalkMode(self) == NPC_SNEAK)
 
 ## Npc_IsStanding
 
+Checks if the NPC is currently standing still.
+
 ```dae
 func int Npc_IsStanding(var C_NPC npc) {};
 ```
@@ -82,6 +88,8 @@ if (Npc_IsStanding(self))
 ```
 
 ## Npc_IsWalking
+
+Checks if the NPC is currently walking.
 
 ```dae
 func int Npc_IsWalking(var C_NPC npc) {};
@@ -99,6 +107,8 @@ if (Npc_IsWalking(self))
 
 ## Npc_HasOverlay
 
+Checks if the NPC has the specified animation overlay active.
+
 ```dae
 func int Npc_HasOverlay(var C_NPC npc, var string overlay) {};
 ```
@@ -114,6 +124,8 @@ if (Npc_HasOverlay(self, "Humans_Tired.mds"))
 ```
 
 ## Npc_HasTimedOverlay
+
+Checks if the NPC has the specified timed animation overlay active.
 
 ```dae
 func int Npc_HasTimedOverlay(var C_NPC npc, var string overlay) {};

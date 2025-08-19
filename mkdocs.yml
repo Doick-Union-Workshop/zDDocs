@@ -1,5 +1,5 @@
 site_name: Doick's Union Workshop Docs
-copyright: Copyright &copy; Doick 2025
+copyright: Copyright &copy; 2025 Doick
 site_url: https://doick-union-workshop.github.io/zDDocs
 repo_url: https://github.com/Doick-Union-Workshop/zDDocs
 repo_name: DUW/zDDocs
@@ -45,6 +45,7 @@ nav:
     - Status menu: hooks/menu_status.md
     - Dropping items by player: hooks/player_drop_item.md
     - Selling items by player: hooks/player_sell_item.md
+  - Dev Tools: dev_tools/index.md
 extra:
   social:
     - icon: fontawesome/brands/github
