@@ -8,8 +8,9 @@ The documentation is built using [MkDocs](https://www.mkdocs.org/), making it ea
 ## Project setup
 
 ### Requirements
-- `Python 3.10+`
-- `pip`
+
+- [Python 3.10+](https://www.python.org/downloads/)
+- [Visual Studio Code](https://code.visualstudio.com/) ([Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extensions)
 
 ### Create virtual environment
 
@@ -24,7 +25,7 @@ python -m venv env
 ##### PowerShell
 
 ```sh
-.\venv\Scripts\Activate.ps1
+.\env\Scripts\Activate.ps1
 ```
 
 If an “Execution Policy” error appears, you need to allow, for example:
@@ -36,19 +37,19 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ##### CMD
 
 ```sh
-venv\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 
-#### Linux (bash, zsh) / MacOS (bash, zsh)
+#### Linux / MacOS (bash, zsh)
 
 ```sh
-source venv/bin/activate
+source env/bin/activate
 ```
 
-#### Fish shell (Linux/Mac)
+#### Linux / MacOS (Fish shell)
 
 ```sh
-source venv/bin/activate.fish
+source env/bin/activate.fish
 ```
 
 ### Install dependencies
