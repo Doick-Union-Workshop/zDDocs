@@ -14,7 +14,7 @@ func string Menu_GetItemText(var string menuItemName, var int line) {};
 
 ```dae title="Example usage"
 var string playerGuild;
-playerGuild = Menu_GetItemText("MENU_ITEM_PLAYERGUILD");
+playerGuild = Menu_GetItemText("MENU_ITEM_PLAYERGUILD", 0);
 
 if (Hlp_StrCmp(playerGuild, "Necromancer"))
 {
@@ -36,5 +36,5 @@ func void Menu_SetItemText(var string menuItemName, var string value, var int li
 - `drawNow`
 
 ```dae title="Example usage"
-Menu_SetItemText("MENU_ITEM_PLAYERGUILD", "Necromancer");
+Menu_SetItemText("MENU_ITEM_PLAYERGUILD", "Necromancer", 0, TRUE);
 ```
