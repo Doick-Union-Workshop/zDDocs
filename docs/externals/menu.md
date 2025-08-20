@@ -27,7 +27,7 @@ if (Hlp_StrCmp(playerGuild, "Necromancer"))
 Sets value of specified menu item.
 
 ```dae
-func void Menu_SetItemText(var string menuItemName, var string value, var int line) {};
+func void Menu_SetItemText(var string menuItemName, var string value, var int line, var int drawNow) {};
 ```
 
 - `menuItemName`
