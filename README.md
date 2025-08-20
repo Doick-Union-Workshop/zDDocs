@@ -10,7 +10,7 @@ The documentation is built using [MkDocs](https://www.mkdocs.org/), making it ea
 ### Requirements
 
 - [Python 3.10+](https://www.python.org/downloads/)
-- [Visual Studio Code](https://code.visualstudio.com/) ([Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extensions)
+- [Visual Studio Code](https://code.visualstudio.com/Download) ([Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) + [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) extensions)
 
 ### Create virtual environment
 
