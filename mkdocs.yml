@@ -1,8 +1,17 @@
+# Site
 site_name: Doick's Union Workshop Docs
-copyright: Copyright &copy; 2025 Doick
 site_url: https://doick-union-workshop.github.io/zDDocs
-repo_url: https://github.com/Doick-Union-Workshop/zDDocs
+site_author: Doick
+site_description: Doick's Union Workshop is a collection of Union plugins, externals, hooks, and tools for extending and enhancing Gothic games.
+
+# Repository
 repo_name: DUW/zDDocs
+repo_url: https://github.com/Doick-Union-Workshop/zDDocs
+
+# Copyright
+copyright: Copyright &copy; 2025 Doick
+
+# Configuration
 theme:
   name: material
   palette:
@@ -21,10 +30,15 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.footer
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
     - content.code.copy
     - content.action.edit
     - content.action.view
     - content.tooltips
+
+# Navigation
 nav:
   - Home: index.md
   - Externals:
@@ -46,12 +60,31 @@ nav:
     - Dropping items by player: hooks/player_drop_item.md
     - Selling items by player: hooks/player_sell_item.md
   - Dev Tools: dev_tools/index.md
+
+# Extras
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Doick-Union-Workshop/zDDocs
+      name: zDDocs repository
+    - icon: fontawesome/brands/discord
+      link: https://discordapp.com/users/219766962312577024
+      name: Doick's profile
+
+# Plugins
+plugins:
+  - search
+  - git-authors:
+      enabled: True
+      show_email_address: false
+      sort_authors_by: contribution
+      authorship_threshold_percent: 8
+      count_empty_lines: false
+
+# Markdown Extensions
 markdown_extensions:
   - admonition
+  - pymdownx.caret
   - pymdownx.details
   - pymdownx.highlight:
       use_pygments: true
@@ -66,3 +99,5 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.betterem:
+      smart_enable: all

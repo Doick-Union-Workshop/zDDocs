@@ -1,6 +1,6 @@
 # zDDocs
 
-**zDDocs** is a documentation repository for DUW (Doick's Union Workshop) project.
+**zDDocs** is a documentation repository for Doick's Union Workshop project.
 It contains guides, technical documentation, and reference materials for developers and users.
 
 The documentation is built using [MkDocs](https://www.mkdocs.org/), making it easy to write, maintain, and publish project docs in Markdown format.
