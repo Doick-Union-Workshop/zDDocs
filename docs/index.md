@@ -18,7 +18,7 @@ DUW is divided into three main modules:
 
 The project began in 2023 and was intended to be not only a toolset, but also a way to learn and experiment with the C++ language and Union plugin development. The goals included simplifying usage, avoiding the need to rely on zParserExtender API injectable scripts in `Autorun`, and ensuring that externals and features work properly outside of that directory.
 
-DUW is inspired by [AF-Script-Packet](https://github.com/Bad-Scientists/AF-Script-Packet) (AFSP), large script package by [Auronen](https://github.com/auronen) and [Fawkes](https://github.com/Fawkes-dev) based on [Ikarus](https://github.com/Lehona/Ikarus) and [LeGo](https://github.com/Lehona/LeGo) libraries. The developers once mentioned that there were plans for a Union version, but it has not been created yet. This project continues that idea, based on the work of [Bad Scientists](https://github.com/Bad-Scientists) and exploring first the old and now the new Union APIs.
+DUW is inspired by [AF Script Packet](https://github.com/Bad-Scientists/AF-Script-Packet) (AFSP) by [Auronen](https://github.com/auronen) and [Fawkes](https://github.com/Fawkes-dev) based on [Ikarus](https://github.com/Lehona/Ikarus) and [LeGo](https://github.com/Lehona/LeGo) libraries. The developers once mentioned that there were plans for a Union version, but it has not been created yet. This project continues that idea, based on the work of [Bad Scientists](https://github.com/Bad-Scientists) and exploring first the old and now the new Union APIs.
 
 The project is maintained by [Doick](https://github.com/doick):
 
