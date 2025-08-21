@@ -31,3 +31,5 @@ The project is maintained by [Doick](https://github.com/doick):
 DUW plugins depends on [Union API](https://gitlab.com/union-framework/union-api) and [Gothic API](https://gitlab.com/union-framework/gothic-api) libraries, which are licensed under [BSD 3-Clause license](https://gitlab.com/union-framework/union-api/-/blob/main/LICENSE).
 
 zDExternals uses [BetterDaedalusExternals](https://github.com/bogu9821/BetterDaedalusExternals), which is licensed under [MIT license](https://github.com/bogu9821/BetterDaedalusExternals/blob/main/LICENSE).
+
+zDHooks uses [DaedalusCall](https://github.com/bogu9821/DaedalusCall), which is licensed under [MIT license](https://github.com/bogu9821/DaedalusCall/blob/main/LICENSE).
