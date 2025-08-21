@@ -74,12 +74,6 @@ extra:
 # Plugins
 plugins:
   - search
-  - git-authors:
-      enabled: True
-      show_email_address: false
-      sort_authors_by: contribution
-      authorship_threshold_percent: 8
-      count_empty_lines: false
 
 # Markdown Extensions
 markdown_extensions:
